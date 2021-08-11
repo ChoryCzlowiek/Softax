@@ -32,7 +32,7 @@ class FormBox extends Component {
     fetch("https://baconipsum.com/api/?type=all-meat&paras=2")
       .then((res) => res.json())
       .then((data) => {
-        const randomIndex = Math.floor(Math.random() * data.length + 1);
+        const randomIndex = Math.floor(Math.random() * data.length);
         this.setState({ fields: { message: data[randomIndex] } });
       });
   }
@@ -97,7 +97,7 @@ class FormBox extends Component {
         (30 < seconds && seconds <= 39) ||
         (50 < seconds && seconds <= 59)
       ) {
-        alert("Formularz niesety trafił na złe sekundy, spróbuj ponownia!");
+        alert("Formularz niestety trafił na złą sekunde, spróbuj ponownie!");
       } else {
         this.setState({ redirect: true });
       }
@@ -116,7 +116,7 @@ class FormBox extends Component {
     const { branch } = this.props;
 
     if (this.state.redirect) {
-      return <Redirect to="/success" />;
+      return <Redirect to="/Softax/success" />;
     }
 
     if (!this.state.fields["message"]) {

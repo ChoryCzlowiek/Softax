@@ -9,7 +9,7 @@ const ButtonIcon = styled(FontAwesomeIcon)`
   cursor: pointer;
 
   &:hover {
-    color: ${({ theme }) => theme.hoveTextColor};
+    color: ${({ theme }) => theme.hoverTextColor};
   }
 `;
 
