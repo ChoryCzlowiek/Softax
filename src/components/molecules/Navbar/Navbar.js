@@ -48,10 +48,10 @@ class Navbar extends Component {
 
     return (
       <StyledWrapper>
-        <NavLink to="/Softax">
+        <NavLink to="/">
           <ButtonIcon icon={faHome} onClick={goToHome} />
         </NavLink>
-        <NavLink to="/Softax/policy">
+        <NavLink to="/policy">
           <ButtonIcon icon={faUserSecret} />
         </NavLink>
         <ButtonIcon icon={faMoon} onClick={changeMode} />

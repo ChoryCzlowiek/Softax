@@ -116,7 +116,7 @@ class FormBox extends Component {
     const { branch } = this.props;
 
     if (this.state.redirect) {
-      return <Redirect to="/Softax/success" />;
+      return <Redirect to="/success" />;
     }
 
     if (!this.state.fields["message"]) {

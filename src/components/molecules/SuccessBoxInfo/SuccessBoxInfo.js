@@ -34,7 +34,7 @@ class SuccessBoxInfo extends Component {
 
   render() {
     if (this.state.redirect) {
-      return <Redirect to="/Softax" />;
+      return <Redirect to="/" />;
     }
 
     return (

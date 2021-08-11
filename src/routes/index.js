@@ -1,5 +1,5 @@
 export const routes = {
-  home: "/Softax",
-  sendConfirmation: "/Softax/success",
-  privatePolicy: "/Softax/policy",
+  home: "/",
+  sendConfirmation: "/success",
+  privatePolicy: "/policy",
 };
