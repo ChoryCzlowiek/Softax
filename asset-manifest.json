@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/Softax/static/js/main.cc104746.chunk.js",
+    "main.js.map": "/Softax/static/js/main.cc104746.chunk.js.map",
+    "runtime-main.js": "/Softax/static/js/runtime-main.2a30fe6b.js",
+    "runtime-main.js.map": "/Softax/static/js/runtime-main.2a30fe6b.js.map",
+    "static/js/2.966a7c83.chunk.js": "/Softax/static/js/2.966a7c83.chunk.js",
+    "static/js/2.966a7c83.chunk.js.map": "/Softax/static/js/2.966a7c83.chunk.js.map",
+    "index.html": "/Softax/index.html",
+    "static/js/2.966a7c83.chunk.js.LICENSE.txt": "/Softax/static/js/2.966a7c83.chunk.js.LICENSE.txt",
+    "static/media/background.4c2836e4.jpg": "/Softax/static/media/background.4c2836e4.jpg",
+    "static/media/berlin.2c48edfa.jpg": "/Softax/static/media/berlin.2c48edfa.jpg",
+    "static/media/cracov.fd998806.jpg": "/Softax/static/media/cracov.fd998806.jpg",
+    "static/media/formImg.4b7a9bf5.jpg": "/Softax/static/media/formImg.4b7a9bf5.jpg",
+    "static/media/warsaw.1394db1c.jpg": "/Softax/static/media/warsaw.1394db1c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a30fe6b.js",
+    "static/js/2.966a7c83.chunk.js",
+    "static/js/main.cc104746.chunk.js"
+  ]
+}
