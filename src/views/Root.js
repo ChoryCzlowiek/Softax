@@ -11,7 +11,7 @@ import Error from "./Error";
 
 const Root = () => (
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <MainTemplate>
         <Switch>
           <Route exact path={routes.home} component={Home} />
