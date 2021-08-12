@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "../store/index";
 import { routes } from "../routes/index";
@@ -11,7 +11,7 @@ import Error from "./Error";
 
 const Root = () => (
   <Provider store={store}>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <MainTemplate>
         <Switch>
           <Route exact path={routes.home} component={Home} />
@@ -20,7 +20,7 @@ const Root = () => (
           <Route path="*" component={Error} />
         </Switch>
       </MainTemplate>
-    </BrowserRouter>
+    </HashRouter>
   </Provider>
 );
 
