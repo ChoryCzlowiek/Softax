@@ -5,6 +5,7 @@ export const darkTheme = {
   elBgcColorOpc: "rgba(50, 50, 50, .8)",
   bgcColor: "rgba(10, 10, 10, 1)",
   green: "rgba(19, 178, 0, 1)",
+  titleFont: "BebasNeue",
   fontSize: {
     s: ".8rem",
     m: "1.2rem",
@@ -22,6 +23,7 @@ export const lightTheme = {
   elBgcColorOpc: "rgba(199, 199, 199, .8)",
   bgcColor: "rgba(240,240,240, 1)",
   green: "rgba(19, 178, 0, 1)",
+  titleFont: "BebasNeue",
   fontSize: {
     s: ".8rem",
     m: "1.2rem",
